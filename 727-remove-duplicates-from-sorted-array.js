@@ -10,6 +10,7 @@ var removeDuplicates = function(nums) {
             i--; // re-check against next element as well.
         }
     }
+    return nums.length;
 };
 
 
